@@ -8,6 +8,13 @@ public class HallwayManager : MonoBehaviour
     Hallway currentPiece, prevPiece;
     float timer = 0;
 
+    public static HallwayManager instance;
+    public bool auto = false;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         foreach (Hallway hallway in hallways)
@@ -20,20 +27,22 @@ public class HallwayManager : MonoBehaviour
 
     }
 
-
-
     private void Update()
     {
-        timer += Time.deltaTime;
-
-        if (timer > 1)
+        if (auto)
         {
-            timer = 0;
-            MakeNewPiece();
+            timer += Time.deltaTime;
+
+            if (timer > 1)
+            {
+                timer = 0;
+                MakeNewPiece();
+            }
         }
+        
     }
 
-    void MakeNewPiece()
+    public void MakeNewPiece()
     {
         int i = Random.Range(0, hallways.Count);
 
