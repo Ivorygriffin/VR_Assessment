@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/Who Hallway loop 1.unity
+    guid: e56daddc799b02f4aa33340f40f37d95
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 69d8eb7aa4b3f4744b91e1a90b61e1fb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 271e2cb34be15d64e89749601d7ddf62, type: 2}
