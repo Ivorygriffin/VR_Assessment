@@ -1,0 +1,66 @@
+{
+    "name": "mouse",
+    "maps": [
+        {
+            "name": "Interact",
+            "id": "9ed43b30-f2cf-4ced-8b99-4243c6c894a7",
+            "actions": [
+                {
+                    "name": "click",
+                    "type": "Button",
+                    "id": "39225030-38fd-489e-af81-445d15abbeef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mouseposition",
+                    "type": "PassThrough",
+                    "id": "4e4643e2-7cdc-465e-9534-0a6394131ccc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1991cb38-c68c-4571-bfe6-13169beae971",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c9c2c34-a2d7-4325-b477-c815ae7b57c0",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "mouseposition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<VirtualMouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
