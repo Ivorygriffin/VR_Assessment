@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Item
   - Clickable
+  - SlidingPiece
   layers:
   - Default
   - TransparentFX
