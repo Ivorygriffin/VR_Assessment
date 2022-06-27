@@ -20,7 +20,7 @@ public class PuzzlePiece : MonoBehaviour
     int interactableMask, defaultMask;
     Vector2 upperBound, lowerBound;
 
-    BoxCollider collider;
+    BoxCollider col;
 
     private void Awake()
     {
@@ -34,7 +34,7 @@ public class PuzzlePiece : MonoBehaviour
         upperBound = gridSize - (sizeRef / 2);
         lowerBound = -gridSize + (sizeRef / 2);
 
-        collider = GetComponent<BoxCollider>();
+        col = GetComponent<BoxCollider>();
     }
 
     public void SetSelect(bool select, Transform hand)
@@ -54,7 +54,7 @@ public class PuzzlePiece : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 7);
-        collider.center = transform.InverseTransformPoint(targetPos);
+        col.center = transform.InverseTransformPoint(targetPos);
 
         if (selected)
         {
