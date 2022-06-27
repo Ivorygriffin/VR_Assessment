@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
+[RequireComponent(typeof(GrabbableItem))]
 public class GrabbableItemInteractable : XRGrabInteractable
 {
     SelectEnterEventArgs args;

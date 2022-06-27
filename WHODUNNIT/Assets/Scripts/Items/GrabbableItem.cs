@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
 
+[RequireComponent(typeof(GrabbableItemInteractable))]
 public class GrabbableItem : MonoBehaviour
 {
     public Transform grabPoint;
