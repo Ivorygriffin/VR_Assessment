@@ -10,6 +10,7 @@ public class PuzzlePieceInteractable : XRSimpleInteractable
     {
         PuzzlePiece piece = args.interactableObject.transform.GetComponent<PuzzlePiece>();
         piece.SetSelect(true, args.interactorObject.transform);
+        this.piece = piece;
     }
 
     protected override void OnSelectExited(SelectExitEventArgs args)
@@ -17,6 +18,7 @@ public class PuzzlePieceInteractable : XRSimpleInteractable
         if (piece != null)
         {
             piece.SetSelect(false, null);
+            piece = null;
         }
     }
 }
