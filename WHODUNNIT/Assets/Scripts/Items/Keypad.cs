@@ -10,6 +10,8 @@ public class Keypad : MonoBehaviour
     public TextMeshPro textBox;
     KeypadData data;
 
+    public UnityEvent onSuccess, onError;
+
     int[] keys;
     int[] inputKeys;
     int keyIndex = 0;
@@ -63,7 +65,7 @@ public class Keypad : MonoBehaviour
             if (CheckResult())
             {
                 fin = true;
-
+                onSuccess?.Invoke();
                 data.onSuccess?.Invoke();
             }
             else
@@ -74,7 +76,7 @@ public class Keypad : MonoBehaviour
                     inputKeys[x] = -1;
                 }
                 SetString();
-
+                onError?.Invoke();
             }
         }
     }
