@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Hand : MonoBehaviour
 {
-    public Item held;
+    public GrabbableItem held;
 
-    public void Grab(Item item)
+    public void Grab(GrabbableItem item)
     {
         held = item;
+        held.hand = this;
     }
 
     public void Release()
     {
+        held.hand = null;
         held = null;
     }
 }
