@@ -54,6 +54,8 @@ public class PuzzlePiece : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 7);
+        if (PuzzleManager.instance.GetWin()) { return; }
+
         col.center = transform.InverseTransformPoint(targetPos);
 
         if (selected)
