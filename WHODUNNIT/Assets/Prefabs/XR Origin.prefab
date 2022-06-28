@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316405297239669942}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316405297239669943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 316405297888967038}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 316405297888967024}
   - component: {fileID: 316405297888967037}
   - component: {fileID: 316405297888967036}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 316405297944464856}
   - component: {fileID: 316405297944464857}
   - component: {fileID: 316405297944464677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand Gameplay Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316405298019362041}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316405298106497056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316405298204386855}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightHand Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -891,7 +891,7 @@ GameObject:
   - component: {fileID: 316405298634174483}
   - component: {fileID: 316405298634174484}
   - component: {fileID: 316405298634174480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand Gameplay Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1416,7 +1416,7 @@ GameObject:
   - component: {fileID: 316405298483477674}
   - component: {fileID: 316405298828416409}
   - component: {fileID: 316405298828416408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: XR Origin
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1717,7 +1717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316405299018514296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}

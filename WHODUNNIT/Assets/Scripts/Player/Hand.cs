@@ -15,6 +15,7 @@ public class Hand : MonoBehaviour
 
     public void Release()
     {
+        if (held == null) { return; }
         held.Release();
         held = null;
     }
