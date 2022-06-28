@@ -8,13 +8,14 @@ public class Hand : MonoBehaviour
 
     public void Grab(GrabbableItem item)
     {
+        item.Grab();
         held = item;
         held.hand = this;
     }
 
     public void Release()
     {
-        held.hand = null;
+        held.Release();
         held = null;
     }
 }
