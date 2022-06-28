@@ -36,13 +36,7 @@ public class GrabbableItemInteractable : XRGrabInteractable
 
     public void DropItem()
     {
-        SelectExitEventArgs args = new SelectExitEventArgs();
-
-        args.interactorObject = this.args.interactorObject;
-        args.isCanceled = false;
-        args.interactableObject = this.args.interactableObject;
-        args.manager = this.args.manager;
-
-        base.OnSelectExiting(args);
+        interactorsSelecting.Remove(args.interactorObject);
+        Drop();
     }
 }

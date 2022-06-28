@@ -14,6 +14,8 @@ public class GrabbableItem : MonoBehaviour
     GrabbableItemInteractable grabbable;
     public Hand hand;
 
+    int playerLayer, defaultLayer;
+
     private void Start()
     {
         grabbable = GetComponent<GrabbableItemInteractable>();
@@ -23,6 +25,14 @@ public class GrabbableItem : MonoBehaviour
         {
             combination.result.SetActive(false);
         }
+
+        playerLayer = LayerMask.NameToLayer("Player");
+        defaultLayer = LayerMask.NameToLayer("Default");
+    }
+
+    public void Grab()
+    {
+        gameObject.layer = playerLayer;
     }
 
     public void OnSelect()
@@ -32,7 +42,16 @@ public class GrabbableItem : MonoBehaviour
 
     public void Release()
     {
+        hand = null;
+        gameObject.layer = defaultLayer;
+    }
 
+    public void ForceRelease(bool enable)
+    {
+        grabbable.DropItem();
+        gameObject.SetActive(enable);
+        if (hand != null) { hand.held = null; }
+        hand = null;
     }
 }
 
