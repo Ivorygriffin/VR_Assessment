@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 4968027562345828339}
   m_Layer: 6
   m_Name: 2x1 pipe (4)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 4968027562423618862}
   m_Layer: 6
   m_Name: 2x1 pipe (5)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -745,7 +745,7 @@ GameObject:
   - component: {fileID: 4968027562541553970}
   m_Layer: 6
   m_Name: 3x1 pipe
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 4968027562697856729}
   m_Layer: 6
   m_Name: 2x1 pipe (3)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1213,7 +1213,7 @@ GameObject:
   - component: {fileID: 4968027562804184715}
   m_Layer: 6
   m_Name: 2x1 pipe
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1570,7 +1570,7 @@ GameObject:
   - component: {fileID: 4968027563017619370}
   m_Layer: 6
   m_Name: 3x1 pipe (2)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2254,7 +2254,7 @@ GameObject:
   - component: {fileID: 4968027563818149666}
   m_Layer: 6
   m_Name: 3x1 pipe (1)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2447,7 +2447,7 @@ GameObject:
   - component: {fileID: 4968027563862502778}
   m_Layer: 6
   m_Name: 2x1 pipe (6)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3066,7 +3066,7 @@ GameObject:
   - component: {fileID: 4968027564116205422}
   m_Layer: 6
   m_Name: 2x1 pipe (1)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3259,7 +3259,7 @@ GameObject:
   - component: {fileID: 4968027564170979877}
   m_Layer: 6
   m_Name: 2x1 pipe (2)
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3452,7 +3452,7 @@ GameObject:
   - component: {fileID: 4968027564269597813}
   m_Layer: 6
   m_Name: key
-  m_TagString: SlidingPiece
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
