@@ -8,6 +8,7 @@ public class Hand : MonoBehaviour
 
     public void Grab(GrabbableItem item)
     {
+        Audio.instance.Grab();
         item.Grab();
         held = item;
         held.hand = this;
@@ -15,6 +16,8 @@ public class Hand : MonoBehaviour
 
     public void Release()
     {
+        if (held == null) { return; }
+        Audio.instance.Drop();
         held.Release();
         held = null;
     }

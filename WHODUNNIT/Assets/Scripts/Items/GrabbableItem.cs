@@ -45,6 +45,14 @@ public class GrabbableItem : MonoBehaviour
         hand = null;
         gameObject.layer = defaultLayer;
     }
+
+    public void ForceRelease(bool enable)
+    {
+        grabbable.DropItem();
+        gameObject.SetActive(enable);
+        if (hand != null) { hand.held = null; }
+        hand = null;
+    }
 }
 
 

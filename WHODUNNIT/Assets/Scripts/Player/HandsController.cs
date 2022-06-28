@@ -30,11 +30,12 @@ public class HandsController : MonoBehaviour
         {
             if (combination.secondItem == item2)
             {
-                combination.result.transform.position = transform.position + mainCam.forward;
+                combination.result.transform.position = transform.position + new Vector3(mainCam.forward.x, transform.position.y +1, mainCam.forward.z);
                 combination.result.SetActive(true);
 
-                item1.Release();
-                item2.Release();
+                item1.ForceRelease(false);
+                item2.ForceRelease(false);
+
                 return true;
             }
         }
