@@ -6,12 +6,7 @@ using UnityEngine.Events;
 public class PuzzleManager : MonoBehaviour
 {
     public UnityEvent onWin;
-    public static PuzzleManager instance;
     bool win = false;
-    private void Awake()
-    {
-        instance = this;
-    }
     public void Win()
     {
         onWin?.Invoke();

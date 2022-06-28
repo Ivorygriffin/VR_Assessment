@@ -21,6 +21,7 @@ public class PuzzlePiece : MonoBehaviour
     Vector2 upperBound, lowerBound;
 
     BoxCollider col;
+    public PuzzleManager manager;
 
     private void Awake()
     {
@@ -54,7 +55,7 @@ public class PuzzlePiece : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 7);
-        if (PuzzleManager.instance.GetWin()) { return; }
+        if (manager.GetWin()) { return; }
 
         col.center = transform.InverseTransformPoint(targetPos);
 
@@ -107,10 +108,10 @@ public class PuzzlePiece : MonoBehaviour
 
     void CheckMove(Vector3 point, Vector3 offset)
     {
-        if (!Physics.Raycast(point, main.forward, out RaycastHit hit, 2, interactableMask))
+        if (!Physics.Raycast(point, main.forward, 2, interactableMask))
         {
-            targetPos += offset;
             Vector3 localTargetPos = main.InverseTransformPoint(targetPos);
+            localTargetPos += offset;
             localTargetPos.x = Mathf.Clamp(localTargetPos.x, lowerBound.x, upperBound.x);
             localTargetPos.y = Mathf.Clamp(localTargetPos.y, lowerBound.y, upperBound.y);
             targetPos = main.TransformPoint(localTargetPos);
