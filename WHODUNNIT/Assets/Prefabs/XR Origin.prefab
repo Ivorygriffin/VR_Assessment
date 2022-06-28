@@ -54,7 +54,7 @@ MonoBehaviour:
   drop: {fileID: 8300000, guid: 5cc65ec531341624390b8446ea01d4b2, type: 3}
   footsteps: {fileID: 8300000, guid: 6c3b55e18a67954489c68c8745895884, type: 3}
   backgroundSound: {fileID: 8300000, guid: d0a1964efcd638f4f8f127b549d4beaf, type: 3}
-  playBackgroundSoundOnStart: 1
+  playBackgroundSoundOnStart: 0
   backgroundVolume: 0.5
 --- !u!82 &665417720
 AudioSource:

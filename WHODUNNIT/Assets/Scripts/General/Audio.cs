@@ -14,11 +14,10 @@ public class Audio : MonoBehaviour
     public float backgroundVolume = 0.5f;
 
     public static Audio instance;
-    Transform cam;
+    Transform player;
     bool moving = false;
     Vector3 storedPosition;
-
-
+    float timer = 0;
     private void Awake()
     {
         instance = this;
@@ -43,27 +42,32 @@ public class Audio : MonoBehaviour
 
         footstepSource.clip = footsteps;
 
-        cam = Camera.main.transform;
-
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     private void Update()
     {
-        bool movedThisFrame = true;
-        if (Mathf.Approximately(Mathf.Abs(storedPosition.x), Mathf.Abs(cam.position.x))
-            && Mathf.Approximately(Mathf.Abs(storedPosition.z), Mathf.Abs(cam.position.z)))
+        if (timer > 0.1f)
         {
-            movedThisFrame = false;
-        }
+            timer = 0;
 
-        if (movedThisFrame != moving)
-        {
-            if (movedThisFrame) { footstepSource.Play(); }
-            else { footstepSource.Stop(); }
-            moving = movedThisFrame;
-        }
+            bool movedThisFrame = true;
+            if (Vector3.Distance(player.position, storedPosition) < 0.01f)
+            {
+                movedThisFrame = false;
+            }
 
-        storedPosition = cam.position;
+            if (movedThisFrame != moving)
+            {
+                if (movedThisFrame) { footstepSource.Play(); }
+                else { footstepSource.Stop(); }
+                moving = movedThisFrame;
+            }
+
+
+            storedPosition = player.position;
+        }
+        timer += Time.deltaTime;
     }
 
     public void SetBackgroundVolume(float v)

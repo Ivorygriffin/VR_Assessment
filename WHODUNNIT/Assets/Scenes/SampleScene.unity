@@ -4823,10 +4823,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 665417726, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
-      propertyPath: playBackgroundSoundOnStart
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 316405297944464679, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_InteractionManager
       value: 
