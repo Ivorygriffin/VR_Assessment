@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class HallwayManager : MonoBehaviour
 {
-    public List<Hallway> hallways;
-    Hallway currentPiece, prevPiece;
+    public Hallway start;
+    Hallway currentPiece, prevPiece, newPiece;
     float timer = 0;
 
     public static HallwayManager instance;
@@ -17,12 +17,8 @@ public class HallwayManager : MonoBehaviour
     }
     private void Start()
     {
-        foreach (Hallway hallway in hallways)
-        {
-            hallway.gameObject.SetActive(false);
-        }
 
-        currentPiece = Instantiate(hallways[0].gameObject).GetComponent<Hallway>();
+        currentPiece = Instantiate(start).GetComponent<Hallway>();
         currentPiece.gameObject.SetActive(true);
 
     }
@@ -42,11 +38,15 @@ public class HallwayManager : MonoBehaviour
         
     }
 
+    public void SetNextHallway(Hallway next)
+    {
+        newPiece = next;
+    }
+
     public void MakeNewPiece()
     {
-        int i = Random.Range(0, hallways.Count);
 
-        Hallway newHallway = Instantiate(hallways[i].gameObject).GetComponent<Hallway>();
+        Hallway newHallway = Instantiate(newPiece.gameObject).GetComponent<Hallway>();
         newHallway.gameObject.SetActive(true);
 
         //end+start
@@ -59,7 +59,7 @@ public class HallwayManager : MonoBehaviour
         Vector3 offset = endPos - startPos;
         newHallway.transform.position += offset;
 
-        newHallway.gameObject.name = hallways[i].gameObject.name;
+        newHallway.gameObject.name = newPiece.gameObject.name;
 
         if (prevPiece != null)
         {

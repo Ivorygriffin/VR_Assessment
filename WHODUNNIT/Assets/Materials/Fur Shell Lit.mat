@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _BaseMap:
         m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 10, y: 10}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FurMap:
         m_Texture: {fileID: 2800000, guid: c22fc16178bfeb94cb1b5985380c4287, type: 3}
@@ -32,16 +32,16 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaCutout: 0.172
-    - _FurScale: 2
+    - _AlphaCutout: 0.126
+    - _FurScale: 1.08
     - _Metallic: 0
     - _NormalScale: 0.22
-    - _Occlusion: 0.4
+    - _Occlusion: 0.244
     - _RimLightIntensity: 0.82
     - _RimLightPower: 6
     - _ShadowExtraBias: -0.3
-    - _ShellAmount: 14
-    - _ShellStep: 0.004
+    - _ShellAmount: 12
+    - _ShellStep: 0.00404
     - _Smoothness: 0
     m_Colors:
     - _AmbientColor: {r: 0.011599604, g: 0.16096793, b: 0.21698111, a: 1}
