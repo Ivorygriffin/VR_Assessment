@@ -82,6 +82,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6472871485637224827, guid: 64419855a59d35a40901f42bd788ee23, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0724f8a9819ff24f8e51ea2de166969, type: 2}
+    - target: {fileID: -4133160431427748959, guid: 64419855a59d35a40901f42bd788ee23, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0724f8a9819ff24f8e51ea2de166969, type: 2}
     - target: {fileID: 919132149155446097, guid: 64419855a59d35a40901f42bd788ee23, type: 3}
       propertyPath: m_Name
       value: MatroshkaDollLarge
