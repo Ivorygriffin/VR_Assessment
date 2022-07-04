@@ -11,9 +11,14 @@ public class PlatformSwitcher : MonoBehaviour
     void Start()
     {
 #if UNITY_EDITOR
-        cameraController.enabled = false;
+        if (cameraController != null)
+        {
+            cameraController.enabled = false;
+        }
 #else
+if (gameObject != null){
         gameObject.SetActive(false);
+}
 #endif
     }
 }

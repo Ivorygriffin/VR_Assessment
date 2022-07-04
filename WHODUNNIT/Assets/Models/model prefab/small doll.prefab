@@ -82,10 +82,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3947330670670273827, guid: 104744e86e5c75c47ba31e85709aa463, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4e185b245ea2e748a1e4a2da664a314, type: 2}
     - target: {fileID: 919132149155446097, guid: 104744e86e5c75c47ba31e85709aa463, type: 3}
       propertyPath: m_Name
       value: MatroshkaDollSmall
       objectReference: {fileID: 0}
+    - target: {fileID: 9195939511806853683, guid: 104744e86e5c75c47ba31e85709aa463, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4e185b245ea2e748a1e4a2da664a314, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 104744e86e5c75c47ba31e85709aa463, type: 3}
 --- !u!4 &6284945189237813478 stripped
