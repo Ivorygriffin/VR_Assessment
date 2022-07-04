@@ -21,6 +21,8 @@ public class HallwayManager : MonoBehaviour
         currentPiece = Instantiate(start).GetComponent<Hallway>();
         currentPiece.gameObject.SetActive(true);
 
+        newPiece = start;
+
     }
 
     private void Update()
