@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.1789263, g: 0.22404246, b: 0.30589238, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -247,6 +247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Radio hall
       objectReference: {fileID: 0}
+    - target: {fileID: 330805518480712559, guid: f3ad3cb6d396bb340b544d13e53e0b12, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 859531133767532981, guid: f3ad3cb6d396bb340b544d13e53e0b12, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -314,6 +318,7 @@ MonoBehaviour:
   startAngle: 180
   endAnchor: {x: -15.6, y: 5.7, z: 30.2}
   endAngle: 90
+  enableOnStart: 0
 --- !u!1 &254566203
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,13 +405,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254566203}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.43268064, y: -0.18561243, z: 0.21023487, w: 0.85681784}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 55.035, y: -13.743, z: 20.388}
 --- !u!1 &289576550
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dff283dee1846a4e879a48a7241c651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 1113060651}
+  start: {fileID: 743896766}
   auto: 0
 --- !u!4 &353699969
 Transform:
@@ -543,19 +548,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.75
+      value: 1.63
       objectReference: {fileID: 0}
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.75
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -118.2
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -646,6 +651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: final hall
       objectReference: {fileID: 0}
+    - target: {fileID: 8916512770883848463, guid: c26b73c9dfa0d01439cb9fe2a3169fe1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26b73c9dfa0d01439cb9fe2a3169fe1, type: 3}
 --- !u!1 &495124943 stripped
@@ -669,6 +678,7 @@ MonoBehaviour:
   startAngle: 180
   endAnchor: {x: -15.6, y: 5.7, z: 30.2}
   endAngle: 90
+  enableOnStart: 0
 --- !u!1001 &544858533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -724,6 +734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door puzzle hall
       objectReference: {fileID: 0}
+    - target: {fileID: 9178639222312550661, guid: da56bb5d9b59c4c439573a401685de40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da56bb5d9b59c4c439573a401685de40, type: 3}
 --- !u!1 &544858534 stripped
@@ -747,6 +761,7 @@ MonoBehaviour:
   startAngle: 180
   endAnchor: {x: -15.6, y: 5.7, z: 30.2}
   endAngle: 90
+  enableOnStart: 0
 --- !u!1 &585544184
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,89 +844,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &618071411
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 618071414}
-  - component: {fileID: 618071413}
-  - component: {fileID: 618071412}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &618071412
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618071411}
-  m_Enabled: 1
---- !u!20 &618071413
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618071411}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &618071414
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618071411}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741591836
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +926,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &743896764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6116028605513000933, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605513000933, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605513000933, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538128, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538135, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_Name
+      value: Hat hall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116028605937538135, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 362692131709321657, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+--- !u!1 &743896765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6116028605937538135, guid: ff7fe35d282432d4ead6a36aabe424b5, type: 3}
+  m_PrefabInstance: {fileID: 743896764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &743896766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743896765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAnchor: {x: 2.85, y: 0.47, z: 2.92}
+  startAngle: 0
+  endAnchor: {x: -28.34, y: 0.4, z: 24.3}
+  endAngle: 90
+  enableOnStart: 0
 --- !u!1001 &774297737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1049,6 +1077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Footprint Shoe hall
       objectReference: {fileID: 0}
+    - target: {fileID: 4480819201823038195, guid: ba33c7d6c180d79449f4cd84abfa401b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba33c7d6c180d79449f4cd84abfa401b, type: 3}
 --- !u!1 &774297738 stripped
@@ -1072,6 +1104,7 @@ MonoBehaviour:
   startAngle: 180
   endAnchor: {x: -15.6, y: 5.7, z: 30.2}
   endAngle: 90
+  enableOnStart: 0
 --- !u!1001 &1113060644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,6 +1179,10 @@ PrefabInstance:
     - target: {fileID: 3682411504967763797, guid: 0ebfd8741046e6a42a3d35bb7b4f7463, type: 3}
       propertyPath: m_Name
       value: Hat Hallway
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682411504967763797, guid: 0ebfd8741046e6a42a3d35bb7b4f7463, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5002175031965431080, guid: 0ebfd8741046e6a42a3d35bb7b4f7463, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.size
@@ -1225,7 +1262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5558331331588836362, guid: 0ebfd8741046e6a42a3d35bb7b4f7463, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -124.3
+      value: -45.3
       objectReference: {fileID: 0}
     - target: {fileID: 5558331331588836362, guid: 0ebfd8741046e6a42a3d35bb7b4f7463, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1311,6 +1348,7 @@ MonoBehaviour:
   startAngle: 180
   endAnchor: {x: -15.6, y: 5.7, z: 30.2}
   endAngle: 90
+  enableOnStart: 0
 --- !u!114 &1113060652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1669,6 +1707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Shoe hall '
       objectReference: {fileID: 0}
+    - target: {fileID: 7454894795030312999, guid: 3a1cbae0c8fc9804b98a19993af583b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a1cbae0c8fc9804b98a19993af583b7, type: 3}
 --- !u!1 &1248571410 stripped
@@ -1692,6 +1734,7 @@ MonoBehaviour:
   startAngle: 180
   endAnchor: {x: -15.6, y: 5.7, z: 30.2}
   endAngle: 90
+  enableOnStart: 0
 --- !u!1 &1281953786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,7 +2577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1678432283
 MonoBehaviour:
   m_ObjectHideFlags: 0
