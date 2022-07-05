@@ -22995,7 +22995,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-322670
+  m_Name: pb_Mesh-13026
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32288,13 +32288,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Loop1_2
       objectReference: {fileID: 0}
-    - target: {fileID: 493271700194814708, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 493271700194814710, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 493271700194814710, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38689,7 +38685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5859678968970885253, guid: f59cecd810b457b409e748da5cf1f8ae, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5859678968970885253, guid: f59cecd810b457b409e748da5cf1f8ae, type: 3}
       propertyPath: m_LocalPosition.x
