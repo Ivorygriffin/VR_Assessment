@@ -21047,14 +21047,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4573165388938519819}
   - component: {fileID: 7752764436277135333}
-  - component: {fileID: 4951500361273079530}
   m_Layer: 0
   m_Name: Door Puzzle hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4573165388938519819
 Transform:
   m_ObjectHideFlags: 0
@@ -21062,7 +21061,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4573165388938519820}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21092,39 +21091,6 @@ MonoBehaviour:
   startAngle: 0
   endAnchor: {x: -28.31, y: 0.4, z: 24.1}
   endAngle: 90
---- !u!114 &4951500361273079530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4573165388938519820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1abc09f14caeb5e4699dbb5fa443b303, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnComplete:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: HallwayManager, Assembly-CSharp
-        m_MethodName: SetNextHallway
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: Hallway, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  condition1: 0
-  condition2: 0
-  condition3: 0
-  debugMarker1: {fileID: 0}
-  debugMarker2: {fileID: 0}
-  debugMarker3: {fileID: 0}
 --- !u!1 &4601910388506524015
 GameObject:
   m_ObjectHideFlags: 0

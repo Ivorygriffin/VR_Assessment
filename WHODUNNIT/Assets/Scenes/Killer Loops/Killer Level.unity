@@ -1633,18 +1633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: final hall
       objectReference: {fileID: 0}
-    - target: {fileID: 2060289391385576652, guid: 9dd81f696be7ab74a8b58a26b746c856, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4916299511688455635, guid: 9dd81f696be7ab74a8b58a26b746c856, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1612384157}
-    - target: {fileID: 7446693875968104234, guid: 9dd81f696be7ab74a8b58a26b746c856, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 353699968}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dd81f696be7ab74a8b58a26b746c856, type: 3}
 --- !u!4 &2548665090080878413 stripped
@@ -1697,26 +1689,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1947365556}
     m_Modifications:
-    - target: {fileID: 429180787611026197, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1730,42 +1702,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1964063550}
     - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetKey
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetNextHallway
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: SetWinHallway
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: HallwayPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: HallwayManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: HallwayPuzzle, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
-      value: 424
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 3341855265141732989}
@@ -1773,26 +1709,10 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8628565905676930467}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Hallway, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1215805259927468457, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Hallway, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 2097985433576225202, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1612384157}
-    - target: {fileID: 4499173377687882571, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 353699968}
     - target: {fileID: 4885962051104044919, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -1844,14 +1764,6 @@ PrefabInstance:
     - target: {fileID: 5021549526143981741, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
       propertyPath: m_Name
       value: radio1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5021549526143981741, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5127210878477576902, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
@@ -1914,14 +1826,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door Puzzle hall
       objectReference: {fileID: 0}
-    - target: {fileID: 4573165388938519820, guid: 7ef6a5a3af44f7f43bc460281bc3b092, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4951500361273079530, guid: 7ef6a5a3af44f7f43bc460281bc3b092, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 353699968}
     - target: {fileID: 7483451663846229011, guid: 7ef6a5a3af44f7f43bc460281bc3b092, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -1935,10 +1839,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1947365556}
     m_Modifications:
-    - target: {fileID: 2216815237403347907, guid: 23fee18055c7f024b831500e8904c195, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 353699968}
     - target: {fileID: 3489334917499042081, guid: 23fee18055c7f024b831500e8904c195, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -2014,10 +1914,6 @@ PrefabInstance:
     - target: {fileID: 7278893830793156645, guid: 23fee18055c7f024b831500e8904c195, type: 3}
       propertyPath: m_Name
       value: radio2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7278893830793156645, guid: 23fee18055c7f024b831500e8904c195, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23fee18055c7f024b831500e8904c195, type: 3}
@@ -2113,10 +2009,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: footprint hall
       objectReference: {fileID: 0}
-    - target: {fileID: 539646146858595640, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 539646146858595647, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2185,14 +2077,6 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1612384157}
-    - target: {fileID: 8988432406277449438, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 353699968}
-    - target: {fileID: 8988432406277449438, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 3341855265141732989}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
 --- !u!1 &5832292936621105008 stripped
@@ -2241,17 +2125,9 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 6335012002292904692}
-    - target: {fileID: 2387866859598850565, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
-      propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 353699968}
     - target: {fileID: 6549094401090386403, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
       propertyPath: m_Name
       value: radio3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6549094401090386403, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6549094401090386404, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
       propertyPath: m_RootOrder
