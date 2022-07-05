@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Killer Loops/Killer Level.unity
+    path: Assets/Scenes/Final Scene.unity
     guid: da6c249932b9c6648a6935d0651a36c2
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
