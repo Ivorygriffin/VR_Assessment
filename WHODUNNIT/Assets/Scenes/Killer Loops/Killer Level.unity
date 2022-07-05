@@ -2009,6 +2009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: footprint hall
       objectReference: {fileID: 0}
+    - target: {fileID: 539646146858595640, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 539646146858595647, guid: 7f68d6909bbe3754fb8709b4e5b1395d, type: 3}
       propertyPath: m_RootOrder
       value: 0
