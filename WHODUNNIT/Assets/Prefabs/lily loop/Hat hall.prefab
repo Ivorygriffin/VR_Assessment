@@ -3863,7 +3863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6116028605937538128
 Transform:
   m_ObjectHideFlags: 0
@@ -3919,7 +3919,6 @@ MonoBehaviour:
   startAngle: 0
   endAnchor: {x: -28.42, y: 0.4, z: 24.08}
   endAngle: 90
-  enableOnStart: 1
 --- !u!1 &6116028606043970184
 GameObject:
   m_ObjectHideFlags: 0
