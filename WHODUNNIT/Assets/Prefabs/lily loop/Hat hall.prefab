@@ -8030,7 +8030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3040397535489885053, guid: 7dfa0b11facdaae439c7ed6d61df2f3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.41
+      value: 0.286
       objectReference: {fileID: 0}
     - target: {fileID: 3429084062846976447, guid: 7dfa0b11facdaae439c7ed6d61df2f3d, type: 3}
       propertyPath: m_Color.b
@@ -8150,7 +8150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760239417448091150, guid: 7dfa0b11facdaae439c7ed6d61df2f3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.29
+      value: 0.398
       objectReference: {fileID: 0}
     - target: {fileID: 8870180099915455454, guid: 7dfa0b11facdaae439c7ed6d61df2f3d, type: 3}
       propertyPath: m_LocalPosition.y
