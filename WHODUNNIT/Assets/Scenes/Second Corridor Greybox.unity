@@ -17348,7 +17348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dff283dee1846a4e879a48a7241c651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 1932661398}
+  start: {fileID: 914620940}
   auto: 0
 --- !u!4 &899023522
 Transform:
@@ -17364,6 +17364,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914620940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 37597352349562795, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+  m_PrefabInstance: {fileID: 37597351398651269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &915949697
 GameObject:
   m_ObjectHideFlags: 0
@@ -23039,7 +23050,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-65758
+  m_Name: pb_Mesh-219232
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32879,17 +32890,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!114 &1932661398 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 493271700194814711, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
-  m_PrefabInstance: {fileID: 1885783766}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1935550615
 Mesh:
   m_ObjectHideFlags: 0

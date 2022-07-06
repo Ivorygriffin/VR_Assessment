@@ -2371,7 +2371,7 @@ GameObject:
   - component: {fileID: 1885783772}
   m_Layer: 6
   m_Name: Book27 (1)
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
