@@ -242,9 +242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startAnchor: {x: 0, y: 0.95, z: -4.9}
+  startAnchor: {x: 0, y: 1.13, z: -4.9}
   startAngle: -90
-  endAnchor: {x: -0.4, y: 0.95, z: 4.89}
+  endAnchor: {x: -0.4, y: 1.13, z: 4.89}
   endAngle: 90
 --- !u!1 &5536939173844828721
 GameObject:
