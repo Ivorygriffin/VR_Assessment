@@ -6,6 +6,8 @@ public class DoorOpenAndClosed : MonoBehaviour
 {
     public Animator door;
 
+    public float doorTimeToClose;
+
 
 
     public void OnTriggerEnter(Collider other)
@@ -25,7 +27,7 @@ public class DoorOpenAndClosed : MonoBehaviour
 
     public IEnumerator DoorClosed()
     {
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(doorTimeToClose);
 
 
         door.SetTrigger("closed");

@@ -3522,41 +3522,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &197895821 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3257453571275517856, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-  m_PrefabInstance: {fileID: 37597351398651269}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &197895823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197895821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b44670426ffe90848912c3caa6fa8296, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onAPressed:
-  - item: {fileID: 1509997845}
-    onInteract:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 197895821}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  onAReleased: []
 --- !u!1 &256652083
 GameObject:
   m_ObjectHideFlags: 0
@@ -17354,6 +17319,62 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &899023520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 899023522}
+  - component: {fileID: 899023521}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &899023521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899023520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dff283dee1846a4e879a48a7241c651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {fileID: 914620940}
+  auto: 0
+--- !u!4 &899023522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899023520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.019578338, y: 10.489355, z: -9.928687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914620940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 37597352349562795, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+  m_PrefabInstance: {fileID: 37597351398651269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &915949697
 GameObject:
   m_ObjectHideFlags: 0
@@ -20790,7 +20811,6 @@ MonoBehaviour:
   startAngle: 270
   endAnchor: {x: 11.5, y: 0, z: 6.5}
   endAngle: 0
-  enableOnStart: 0
 --- !u!4 &1102434560
 Transform:
   m_ObjectHideFlags: 0
@@ -23030,7 +23050,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-205678
+  m_Name: pb_Mesh-219232
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23339,6 +23359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Device Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
 --- !u!1 &1421076587
@@ -23372,21 +23396,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1208bbe937c3a54488f1d85a7931055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecalAsset: {fileID: 0}
-  Opacity: 1
-  ZFadeDistance: 0.1
-  MinAngleFadeDegrees: 83
-  MaxAngleFadeDegrees: 85
-  IsFlipU: 0
-  IsFlipV: 0
-  DrawOrder: 0
-  ShouldUseSceneStaticMeshes: 1
-  MeshesToProjectAgainst: []
-  ShouldReprojectOnMove: 0
-  positionOfProjection: {x: 0, y: 0, z: 0}
-  scaleOfProjection: {x: 0, y: 0, z: 0}
-  rotationOfProjection: {x: 0, y: 0, z: 0, w: 0}
-  isMeshUnprojected: 0
 --- !u!23 &1421076589
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25437,52 +25446,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!1 &1502009603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7400458176618352204, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-  m_PrefabInstance: {fileID: 37597351398651269}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1502009607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502009603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b44670426ffe90848912c3caa6fa8296, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onAPressed:
-  - item: {fileID: 1509997845}
-    onInteract:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1502009603}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  onAReleased: []
---- !u!114 &1509997845 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 896645564474730053, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-  m_PrefabInstance: {fileID: 37597351398651269}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4178f300703b68b4d91a0463f411c0a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1549146898
 GameObject:
   m_ObjectHideFlags: 0
@@ -26454,21 +26417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1208bbe937c3a54488f1d85a7931055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecalAsset: {fileID: 0}
-  Opacity: 1
-  ZFadeDistance: 0.1
-  MinAngleFadeDegrees: 83
-  MaxAngleFadeDegrees: 85
-  IsFlipU: 0
-  IsFlipV: 0
-  DrawOrder: 0
-  ShouldUseSceneStaticMeshes: 1
-  MeshesToProjectAgainst: []
-  ShouldReprojectOnMove: 0
-  positionOfProjection: {x: 0, y: 0, z: 0}
-  scaleOfProjection: {x: 0, y: 0, z: 0}
-  rotationOfProjection: {x: 0, y: 0, z: 0, w: 0}
-  isMeshUnprojected: 0
 --- !u!23 &1597130386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26696,30 +26644,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1600144799 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 37597352349562792, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-  m_PrefabInstance: {fileID: 37597351398651269}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1600144800
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1600144799}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9c7bd3b141ae0a74ba56e8e0bd068f86, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1623057883
 GameObject:
   m_ObjectHideFlags: 0
@@ -29688,41 +29612,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!1 &1692492333 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1602576792375033479, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-  m_PrefabInstance: {fileID: 37597351398651269}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1692492335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692492333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b44670426ffe90848912c3caa6fa8296, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onAPressed:
-  - item: {fileID: 1509997845}
-    onInteract:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1692492333}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  onAReleased: []
 --- !u!1 &1699094198
 GameObject:
   m_ObjectHideFlags: 0
@@ -30725,21 +30614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1208bbe937c3a54488f1d85a7931055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecalAsset: {fileID: 0}
-  Opacity: 1
-  ZFadeDistance: 0.1
-  MinAngleFadeDegrees: 83
-  MaxAngleFadeDegrees: 85
-  IsFlipU: 0
-  IsFlipV: 0
-  DrawOrder: 0
-  ShouldUseSceneStaticMeshes: 1
-  MeshesToProjectAgainst: []
-  ShouldReprojectOnMove: 0
-  positionOfProjection: {x: 0, y: 0, z: 0}
-  scaleOfProjection: {x: 0, y: 0, z: 0}
-  rotationOfProjection: {x: 0, y: 0, z: 0, w: 0}
-  isMeshUnprojected: 0
 --- !u!23 &1753503039
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38936,6 +38810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Loop2_2
       objectReference: {fileID: 0}
+    - target: {fileID: 5859678968970885255, guid: f59cecd810b457b409e748da5cf1f8ae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f59cecd810b457b409e748da5cf1f8ae, type: 3}
 --- !u!1001 &37597351398651269
@@ -38953,6 +38831,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1031396392}
+    - target: {fileID: 1600144800, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9c7bd3b141ae0a74ba56e8e0bd068f86, type: 2}
     - target: {fileID: 37597351353300097, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -38963,7 +38845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 37597352349562792, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 37597352349562794, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_RootOrder
@@ -39009,22 +38891,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 37597352349562795, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: enableOnStart
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 896645564474730053, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: onSelect.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 896645564474730053, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: onSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 896645564474730053, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: onSelect.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2989271730102865033, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -39041,9 +38907,5 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1031396392}
-    - target: {fileID: 7924194784058053878, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.602
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
