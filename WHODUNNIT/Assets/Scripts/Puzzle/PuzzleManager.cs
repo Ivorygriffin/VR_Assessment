@@ -7,6 +7,12 @@ public class PuzzleManager : MonoBehaviour
 {
     public UnityEvent onWin;
     bool win = false;
+    public Transform location; 
+    private void Start()
+    {
+       /* transform.position = location.position;
+        transform.rotation = location.rotation;*/
+    }
     public void Win()
     {
         onWin?.Invoke();
