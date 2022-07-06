@@ -338,6 +338,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ee6bb856-e45b-49ef-af90-08ff44e5b4b2",
+                    "path": "<WMRSpatialController>/touchpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "b34c79c1-ab5e-4851-87ac-abc43705eae0",
                     "path": "<XRController>{LeftHand}/triggerPressed",
                     "interactions": "",
@@ -861,6 +872,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
+                    "action": "Activate Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24c46ee9-3af6-465e-bf8e-27dc6daed10a",
+                    "path": "<WMRSpatialController>/touchpadClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Activate Value",
                     "isComposite": false,
                     "isPartOfComposite": false
