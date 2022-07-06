@@ -17,12 +17,9 @@ public class HallwayManager : MonoBehaviour
     }
     private void Start()
     {
-
         currentPiece = Instantiate(start).GetComponent<Hallway>();
         currentPiece.gameObject.SetActive(true);
-
         newPiece = start;
-
     }
 
     private void Update()
@@ -37,7 +34,16 @@ public class HallwayManager : MonoBehaviour
                 MakeNewPiece();
             }
         }
-        
+    }
+
+    public void SetPrevPiece(Hallway prev)
+    {
+        prevPiece = prev;
+    }
+
+    public void SetCurrentHallway(Hallway current)
+    {
+        currentPiece = current;
     }
 
     public void SetNextHallway(Hallway next)
@@ -47,7 +53,6 @@ public class HallwayManager : MonoBehaviour
 
     public void MakeNewPiece()
     {
-
         Hallway newHallway = Instantiate(newPiece.gameObject).GetComponent<Hallway>();
         newHallway.gameObject.SetActive(true);
 

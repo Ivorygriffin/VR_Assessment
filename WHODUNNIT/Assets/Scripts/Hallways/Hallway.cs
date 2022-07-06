@@ -10,13 +10,6 @@ public class Hallway : MonoBehaviour
     public Vector3 endAnchor;
     public float endAngle;
 
-    public bool enableOnStart = false;
-
-    private void Start()
-    {
-        gameObject.SetActive(enableOnStart);
-    }
-
     public void OnDrawGizmosSelected()
     {
         float a = Mathf.Deg2Rad * endAngle;
