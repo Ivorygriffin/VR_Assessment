@@ -23336,21 +23336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1208bbe937c3a54488f1d85a7931055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecalAsset: {fileID: 0}
-  Opacity: 1
-  ZFadeDistance: 0.1
-  MinAngleFadeDegrees: 83
-  MaxAngleFadeDegrees: 85
-  IsFlipU: 0
-  IsFlipV: 0
-  DrawOrder: 0
-  ShouldUseSceneStaticMeshes: 1
-  MeshesToProjectAgainst: []
-  ShouldReprojectOnMove: 0
-  positionOfProjection: {x: 0, y: 0, z: 0}
-  scaleOfProjection: {x: 0, y: 0, z: 0}
-  rotationOfProjection: {x: 0, y: 0, z: 0, w: 0}
-  isMeshUnprojected: 0
 --- !u!23 &1421076589
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26372,21 +26357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1208bbe937c3a54488f1d85a7931055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecalAsset: {fileID: 0}
-  Opacity: 1
-  ZFadeDistance: 0.1
-  MinAngleFadeDegrees: 83
-  MaxAngleFadeDegrees: 85
-  IsFlipU: 0
-  IsFlipV: 0
-  DrawOrder: 0
-  ShouldUseSceneStaticMeshes: 1
-  MeshesToProjectAgainst: []
-  ShouldReprojectOnMove: 0
-  positionOfProjection: {x: 0, y: 0, z: 0}
-  scaleOfProjection: {x: 0, y: 0, z: 0}
-  rotationOfProjection: {x: 0, y: 0, z: 0, w: 0}
-  isMeshUnprojected: 0
 --- !u!23 &1597130386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30584,21 +30554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1208bbe937c3a54488f1d85a7931055a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecalAsset: {fileID: 0}
-  Opacity: 1
-  ZFadeDistance: 0.1
-  MinAngleFadeDegrees: 83
-  MaxAngleFadeDegrees: 85
-  IsFlipU: 0
-  IsFlipV: 0
-  DrawOrder: 0
-  ShouldUseSceneStaticMeshes: 1
-  MeshesToProjectAgainst: []
-  ShouldReprojectOnMove: 0
-  positionOfProjection: {x: 0, y: 0, z: 0}
-  scaleOfProjection: {x: 0, y: 0, z: 0}
-  rotationOfProjection: {x: 0, y: 0, z: 0, w: 0}
-  isMeshUnprojected: 0
 --- !u!23 &1753503039
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32347,6 +32302,10 @@ PrefabInstance:
     - target: {fileID: 493271700194814708, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
       propertyPath: m_Name
       value: Loop1_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 493271700194814708, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 493271700194814710, guid: 12bd6745b6792614da0e2f7beba2da0c, type: 3}
       propertyPath: m_RootOrder
