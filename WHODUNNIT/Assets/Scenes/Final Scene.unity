@@ -2971,6 +2971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: final hall
       objectReference: {fileID: 0}
+    - target: {fileID: 2060289391385576652, guid: 9dd81f696be7ab74a8b58a26b746c856, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4916299511688455635, guid: 9dd81f696be7ab74a8b58a26b746c856, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -3103,6 +3107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: radio1
       objectReference: {fileID: 0}
+    - target: {fileID: 5021549526143981741, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28591663d29ea114f9788b31911b67d1, type: 3}
 --- !u!1001 &5041777058391142808
@@ -3163,6 +3171,10 @@ PrefabInstance:
     - target: {fileID: 4573165388938519820, guid: 7ef6a5a3af44f7f43bc460281bc3b092, type: 3}
       propertyPath: m_Name
       value: Door Puzzle hall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573165388938519820, guid: 7ef6a5a3af44f7f43bc460281bc3b092, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7483451663846229011, guid: 7ef6a5a3af44f7f43bc460281bc3b092, type: 3}
       propertyPath: m_InteractionManager
@@ -3252,6 +3264,10 @@ PrefabInstance:
     - target: {fileID: 7278893830793156645, guid: 23fee18055c7f024b831500e8904c195, type: 3}
       propertyPath: m_Name
       value: radio2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278893830793156645, guid: 23fee18055c7f024b831500e8904c195, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23fee18055c7f024b831500e8904c195, type: 3}
@@ -3471,6 +3487,10 @@ PrefabInstance:
     - target: {fileID: 6549094401090386403, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
       propertyPath: m_Name
       value: radio3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549094401090386403, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6549094401090386404, guid: 4c82daeaf7a42ab4f878a1168bddefd7, type: 3}
       propertyPath: m_RootOrder
