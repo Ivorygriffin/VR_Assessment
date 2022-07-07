@@ -404,6 +404,17 @@ PrefabInstance:
     - {fileID: 57140051011726073, guid: d8815e922919e2549bcfd3fc6126908a, type: 3}
     - {fileID: 5536939174663623239, guid: d8815e922919e2549bcfd3fc6126908a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d8815e922919e2549bcfd3fc6126908a, type: 3}
+--- !u!114 &281801765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5536939173673902308, guid: d8815e922919e2549bcfd3fc6126908a, type: 3}
+  m_PrefabInstance: {fileID: 281801764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &281801766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5536939173673902309, guid: d8815e922919e2549bcfd3fc6126908a, type: 3}
@@ -458,7 +469,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh3684198
+  m_Name: pb_Mesh5300428
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -645,7 +656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dff283dee1846a4e879a48a7241c651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {fileID: 1981278292}
+  start: {fileID: 281801765}
   auto: 0
 --- !u!4 &353699969
 Transform:
@@ -708,7 +719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.19
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 316405298828416410, guid: f39909c59a74e1b4aa0826faa36713f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2581,13 +2592,45 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1483111398}
     - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 353699968}
     - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HallwayManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 743896765}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 37597352349562792, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_Name
       value: Loop3_2
@@ -2640,9 +2683,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1336923684837300528, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+    - target: {fileID: 1052242812475443250, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2989271730102865033, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_Mesh
@@ -2658,7 +2701,7 @@ PrefabInstance:
       objectReference: {fileID: 321236892}
     - target: {fileID: 3520943554773812483, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4840004980616165860, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: parent
