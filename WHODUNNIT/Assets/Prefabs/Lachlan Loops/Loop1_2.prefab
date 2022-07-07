@@ -4366,8 +4366,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047442195008505267}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19503827, y: 0.1122, z: 0.13832903}
-  m_LocalScale: {x: 1, y: 1.3489, z: 1}
+  m_LocalPosition: {x: 0.20129, y: 0.1682, z: 0.1383}
+  m_LocalScale: {x: 0.87595, y: 1.0323131, z: 1}
   m_Children: []
   m_Father: {fileID: 2018777853519629016}
   m_RootOrder: 1
@@ -11117,8 +11117,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4814948895861853993}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000013411044}
-  m_LocalPosition: {x: 0.087999344, y: 0.201, z: 0.20050001}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.10753, y: 0.2362, z: 0.2005}
+  m_LocalScale: {x: 0.437975, y: 0.38265, z: 0.5}
   m_Children:
   - {fileID: 4814948895607519950}
   - {fileID: 4814948897371642581}
@@ -14549,7 +14549,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4814948897353383714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.02}
+  m_LocalPosition: {x: 0, y: 0, z: 0.012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4814948895861853994}
@@ -14621,7 +14621,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ----
+  m_text: '--- '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 96e4a2f22fe4065468fdd9e39e651299, type: 2}
   m_sharedMaterial: {fileID: -1557100401495847617, guid: 96e4a2f22fe4065468fdd9e39e651299, type: 2}
@@ -20363,8 +20363,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8688319379667870716}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000031543535, y: 0.1114, z: -0.017}
-  m_LocalScale: {x: 1, y: 1.3489, z: 1}
+  m_LocalPosition: {x: 0.03047, y: 0.1676, z: -0.017}
+  m_LocalScale: {x: 0.87595, y: 1.0323131, z: 1}
   m_Children: []
   m_Father: {fileID: 2018777853519629016}
   m_RootOrder: 0
