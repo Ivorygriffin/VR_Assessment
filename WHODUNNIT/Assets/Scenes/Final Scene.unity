@@ -458,7 +458,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh3304102
+  m_Name: pb_Mesh3684198
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2580,10 +2580,6 @@ PrefabInstance:
       propertyPath: onAPressed.Array.data[0].onInteract.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1483111398}
-    - target: {fileID: 1336981233, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: onAPressed.Array.data[0].onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1981278294, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2644,6 +2640,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1336923684837300528, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2989271730102865033, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2658,24 +2658,12 @@ PrefabInstance:
       objectReference: {fileID: 321236892}
     - target: {fileID: 3520943554773812483, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4840004980616165860, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: ID
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4840004980616165860, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
       propertyPath: parent
       value: 
       objectReference: {fileID: 743896765}
-    - target: {fileID: 4840004980616165860, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: endAnchor.y
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 5365325070063443797, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953cd235cc411c040b3aabc2b8c71396, type: 3}
 --- !u!4 &1981278291 stripped
