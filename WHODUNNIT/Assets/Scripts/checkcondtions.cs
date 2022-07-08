@@ -52,5 +52,24 @@ public class checkcondtions : MonoBehaviour
         condition3 = true;
         if (debugMarker3)
             debugMarker3.SetActive(true);
+    }  
+    public void Set1false()
+    {
+        condition1 = false;
+        if (debugMarker1)
+            debugMarker1.SetActive(false);
+    } 
+    public void Set2false()
+    {
+        condition2 = false;
+        if (debugMarker2)
+            debugMarker2.SetActive(false);
+    }   
+    public void Set3false()
+    {
+        condition3 = false;
+        if (debugMarker3)
+            debugMarker3.SetActive(false);
     }
+
 }

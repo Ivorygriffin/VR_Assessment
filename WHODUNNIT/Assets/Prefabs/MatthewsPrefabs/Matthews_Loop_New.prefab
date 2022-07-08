@@ -21213,6 +21213,7 @@ GameObject:
   - component: {fileID: 4404761364458013245}
   - component: {fileID: 1256175626714172924}
   - component: {fileID: 202230302}
+  - component: {fileID: 2396333825615301229}
   m_Layer: 6
   m_Name: crate (10)
   m_TagString: Item
@@ -21385,6 +21386,19 @@ MonoBehaviour:
   combinations: []
   hand: {fileID: 0}
 --- !u!65 &202230302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447505395085585602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &2396333825615301229
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21593,6 +21607,7 @@ GameObject:
   - component: {fileID: 4404761364884331976}
   - component: {fileID: 1256175626606629385}
   - component: {fileID: 557254089}
+  - component: {fileID: 706649259327039607}
   m_Layer: 6
   m_Name: crate (8)
   m_TagString: Item
@@ -21777,6 +21792,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &706649259327039607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447505395465630519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3447505395722734722
 GameObject:
   m_ObjectHideFlags: 0
@@ -21790,6 +21818,7 @@ GameObject:
   - component: {fileID: 4404761365164122749}
   - component: {fileID: 1256175627419463100}
   - component: {fileID: 1737014623}
+  - component: {fileID: 109685796667265894}
   m_Layer: 6
   m_Name: crate (9)
   m_TagString: Item
@@ -21962,6 +21991,19 @@ MonoBehaviour:
   combinations: []
   hand: {fileID: 0}
 --- !u!65 &1737014623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3447505395722734722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &109685796667265894
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57675,7 +57717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DO NOT USE GRAB ITEMS FROM A DISTANCE, IT WILL BREAK
+  m_Text: DO NOT GRAB ITEMS FROM A DISTANCE
 --- !u!1 &8272471852946605172
 GameObject:
   m_ObjectHideFlags: 0
@@ -58159,6 +58201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8272471853465233467}
   - component: {fileID: 411597194}
+  - component: {fileID: 8601358518460647608}
   m_Layer: 0
   m_Name: Matthews_Loop_New
   m_TagString: Untagged
@@ -58182,6 +58225,22 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &411597194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272471853465233464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922f0defb035fe4bbd729f3818564de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAnchor: {x: 2.85, y: 0.47, z: 2.92}
+  startAngle: 0
+  endAnchor: {x: -28.34, y: 0.4, z: 24.3}
+  endAngle: 90
+--- !u!114 &8601358518460647608
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61718,6 +61777,7 @@ GameObject:
   - component: {fileID: 8764484084769316228}
   - component: {fileID: 8764484084769316229}
   - component: {fileID: 2800394342558997395}
+  - component: {fileID: 107047204940892037}
   m_Layer: 0
   m_Name: Doorway_Pillars-Arch end
   m_TagString: Untagged
@@ -61783,6 +61843,147 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 7560042375184113295}
   doorTimeToClose: 6
+--- !u!114 &107047204940892037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8764484084769316226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c3c983fccd9f74ab3a01aa5834bb16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8549648291217189418}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5840899005322874336}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3741380166332226505}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8272471854059117653}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8272471853304746279}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2908702264437119152}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1729597002204955333}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1344133710074492596}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6992134451405535567}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8234801254462933783}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnItemEnter:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8768939288700466233
 GameObject:
   m_ObjectHideFlags: 0
@@ -63069,7 +63270,7 @@ GameObject:
   - component: {fileID: 9222255759020061525}
   m_Layer: 0
   m_Name: Journal
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63250,8 +63451,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.39651677, y: 0.047949295, z: 0.30981067}
+  m_Center: {x: 0.011219024, y: 0.019518029, z: 0.0028182755}
 --- !u!1 &9082863812479232085
 GameObject:
   m_ObjectHideFlags: 0
@@ -63556,13 +63757,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d39d3708982789e4690e2b2911641b64, type: 3}
---- !u!4 &4032931525872060490 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2541128894609194540, guid: d39d3708982789e4690e2b2911641b64, type: 3}
-  m_PrefabInstance: {fileID: 1491886228528526950}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4376383341946229488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2884617034008175766, guid: d39d3708982789e4690e2b2911641b64, type: 3}
+  m_PrefabInstance: {fileID: 1491886228528526950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4032931525872060490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2541128894609194540, guid: d39d3708982789e4690e2b2911641b64, type: 3}
   m_PrefabInstance: {fileID: 1491886228528526950}
   m_PrefabAsset: {fileID: 0}
